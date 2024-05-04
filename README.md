@@ -6,8 +6,8 @@ This project is a simple Pet Management System developed using Spring Boot and H
 
 To run this project locally, you need to have Java and Maven installed on your machine.
 
-1. Clone the repository:
-2. Navigate to the project directory:  cd tractive
+1. Clone the repository: https://github.com/bhattaak/PetManagement.git
+2. Navigate to the project directory: cd PetManagement
 3. Run the application using Maven: mvn spring-boot:run
 4. The application will start on `localhost:8080`.
 
