@@ -107,10 +107,8 @@ public class PetControllerIntegrationTest {
 
 	@Test
 	public void testGetPetsOutsideZoneGroupedByTypeAndTracker() throws Exception {
-		// Mock service behavior
+		
 		Map<Pet.PetType, Map<Pet.TrackerType, Long>> mockResult = new HashMap<>();
-		// Add some mock data to the result
-		// For example:
 		mockResult.put(Pet.PetType.DOG, new HashMap<>());
 		mockResult.get(Pet.PetType.DOG).put(Pet.TrackerType.BIG, 5L);
 		mockResult.get(Pet.PetType.DOG).put(Pet.TrackerType.MEDIUM, 3L);
