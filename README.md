@@ -9,7 +9,7 @@ To run this project locally, you need to have Java and Maven installed on your m
 1. Clone the repository: https://github.com/bhattaak/PetManagement.git
 2. Navigate to the project directory: cd PetManagement
 3. Run the application using Maven: mvn spring-boot:run
-4. The application will start on `localhost:8080`.
+4. The application will start on `localhost:8080`
 
 ## Executing Tests:
 1. mvn verify
