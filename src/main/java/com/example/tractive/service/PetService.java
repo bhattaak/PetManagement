@@ -36,6 +36,7 @@ public class PetService {
         return savedPet;
     }
 
+    // Get all the Pet Details 
     @Transactional(readOnly = true)
     public List<Pet> getAllPets() {
 
@@ -44,6 +45,7 @@ public class PetService {
         return pets;
     }
 
+    // Get the count of pets outside safe zone by pet type and tracker type
     @Transactional(readOnly = true)
     public Map<Pet.PetType, Map<Pet.TrackerType, Long>> getPetsOutsideZoneGroupedByTypeAndTracker() {
 
